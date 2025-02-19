@@ -8,7 +8,6 @@ export default function Home() {
       <div>hello i'm</div>
       <div> Andrew Lekgowane</div>
       <div>
-        {" "}
         a passionate full-stack web developer. I specialize in building robust
         and scalable web applications by combining both front-end and back-end
         technologies. I enjoy creating seamless, user-friendly interfaces and

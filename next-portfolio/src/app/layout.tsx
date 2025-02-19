@@ -28,13 +28,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <nav className="px-96 flex gap-6 text-white-900 p-4 bg-black-800 shadow-md">
-          <Link href="/" className="text-xl  hover:underline">
+        <nav className="fixed top-0 left-0 right-0 px-96 flex gap-6 text-white-900 p-4 bg-black-800 shadow-md z-50">
+          <Link href="/" className="text-xl hover:underline">
             Andrew.
           </Link>
           <Link
             href="/"
-            className=" hover:underline-offset-4 hover:text-green-500 hover:underline"
+            className="hover:underline-offset-4 hover:text-green-500 hover:underline"
           >
             Home
           </Link>
@@ -63,8 +63,8 @@ export default function RootLayout({
             Contact
           </Link>
         </nav>
-
-        <main className="p-8">{children}</main>
+        <main className="p-8 mt-16">{children}</main>{" "}
+        {/* Added margin-top for spacing */}
       </body>
     </html>
   );

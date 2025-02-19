@@ -23,10 +23,7 @@ const Contact = () => {
 
   return (
     <>
-      <Head>
-        <title>Contact Me - My Next App</title>
-      </Head>
-      <div className="flex flex-col items-center justify-center min-h-screen p-6">
+      <div className="flex flex-col items-center justify-center min-h-screen ">
         <div className="bg-white shadow-lg rounded-xl p-8 max-w-lg w-full text-center">
           <h1 className="text-3xl font-bold text-gray-800 mb-4">Contact Me</h1>
           <p className="text-gray-600 mb-6">Feel free to reach out!</p>
